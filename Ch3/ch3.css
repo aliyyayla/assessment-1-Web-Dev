@@ -1,0 +1,31 @@
+body { /* for styling your body*/
+font-family: cursive;
+margin: 20px;
+padding: 15;
+background-color:papayawhip;
+color:coral;
+}
+
+h1 { /* for styling your header*/
+text-align: center;
+margin-top: 20px;
+}
+
+.image-container { /* for styling your image*/
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 20px;
+justify-content: center;
+margin-top: 20px;
+}
+
+.image { /* for styling your image height and width*/
+width: 100%;
+height: auto;
+filter: grayscale(50%);
+}
+
+.image-info { /* for styling your image information*/
+ margin-top: 10px;
+text-align: center;
+}

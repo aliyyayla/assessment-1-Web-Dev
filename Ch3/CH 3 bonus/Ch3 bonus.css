@@ -1,0 +1,37 @@
+div { /*for styling all the four frames*/
+  display: inline-block; /* this help align the elemets horizontally */
+  font-family: sans-serif; /* this sets the font to san serif*/
+  font-size: 20px; /*sets the size of the font*/
+  margin: 25px; /*this adds a margin  of 25 pixels around each element */
+  border: 4px solid black; /*this applies a 4 pixels and a solid black color in each element */
+  line-height: 100px; /*this sets a line height for about 100 pixels */
+  text-align: center; /* this sets the text into the center of the element*/
+  width: 200px; /* sets the width of the element each by 200 pixels*/
+  height: 200px; /*sets the height of the element each by 200 pixels*/
+}
+body { /* for stlying the body of the web page*/
+  margin: 100px auto; /*sets the margin of the web page automatically by 100 pixels*/
+  width: max-content; /*sets the body width of the margin to max content  */
+}
+.frameA { /* for styling the frame a*/
+  border: 4px solid rgb(156, 53, 182); /* sets the frame by 4 pixels with the color defined by the rgb*/
+  box-shadow: 10px 10px 8px red; /* sets the box shadow color into red and sets the height width by 10 pixels and blur radius by 8 pixels */
+}
+.frameB { /* for styling the frame b*/
+  border-color:chartreuse; /* setting the color of the border*/
+  box-shadow: 10px 10px 8px black inset; /* sets the box shadow color into black and sets the height width inside the border by 10 pixels and blur radius by 8 pixels*/
+}
+.frameC { /* for styling the frame c*/
+  border: 4px solid darkorange; /*sets the frame by 4 pixels with a solid color dark orange*/
+  border-radius: 25px; /* this sets the border radius into 25 pixels*/
+  outline: 9px solid blue; /* this sets the outline of the border by 9 pixels with the solid color blue*/
+  padding: 20px; /* stes the pading by 20 pixels*/
+  box-shadow:
+  0px 0px 0px 20px red, /* set the box shadow's height width by 0 pixels and thickness by 20 pixels */
+  0px 0px 0px 30px green; /* set the box shadow's height width by 0 pixels and thickness by 30 pixels */
+  margin-bottom: 10px; /* sets the margin bottom by 10 pixels*/
+}
+.frameD { /* for styling the frame d*/
+  border-color: rgb(172, 7, 7); /*setting the border color defined by the rgb */
+  text-shadow: 6px 6px; /* setting the text shadow's height and width by 6 pixels */
+}

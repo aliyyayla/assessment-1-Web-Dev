@@ -1,0 +1,146 @@
+<!--CHAPTER 2 ONE PAGE WEBSITE 
+Pick a television series, film or game and design a really simple one-page website (just text, no images). Your website should include:
+
+An overview of the plot, key information, cast and/or creative team, characters and any reviews you can find.
+A nav bar at the top which allows the user to quickly navigate to sections further down the page (anchor Ids).
+A link to the actual website of the film/game etc. which opens in a new tab when clicked.
+Use of an external CSS file to style elements creatively (avoid inline styling and use classes instead).
+At least two classes.
+One link styled as a button.
+-->
+
+<!DOCTYPE html> <!-- this declares the document type and version of html you are using.-->
+<html lang="en"> <!-- this sets your language attribute to english.-->
+<head>
+    <meta charset="UTF-8"> <!-- this is for the sets of special characters to encode inside the web page.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- this configures the viewport settings for your mobile.-->
+    <title>The Devil Wears Prada</title>
+    <link rel="stylesheet" href="/Users/aliyya/Desktop/Chapters 1-6 /Ch2/Ch2.css" type="text/css"> <!-- using again the link for css to attach my css link.-->
+</head>
+<body>
+
+<div class="container"> <!-- using a nav class tag container link other pages within a page.-->
+    <h1>The Devil Wears Prada</h1> <!-- using h1 as my header-->
+
+    <nav> <!-- using navigation bar for my menu bar.-->
+        <ul><!--using unordered list for the navigation bar-->
+            <li><a href="overview">Overview</a></li>
+            <li><a href="cast"> The Cast</a></li>
+            <li><a href="key information">Key Information</a></li>
+            <li><a href="reviews">Reviews</a></li>
+            <li><a href="characters"> The Characters</a></li>
+        </ul>
+    </nav>
+
+    <section id="overview"> <!-- using a section id overview for the navigation bar-->
+        <h2>Overview</h2> <!-- using h2 as a header for the paragraph attach below.-->
+        <p>Andrea Sachs or Andy, a newly college graduate finds herself a job at the most powerful and influential magazine editor. She faces a nightmare to keep up with all her boss, Miranda Priestly's cynical demands and exausting schedules.
+        Andy changes for the better as she adopted her environment from work, she was succeeding which turned her life upside down. Andy struggles between her desire to be a successful assistant in the fashion world and to live in a more fulfilling and authentic life. </p>
+    </section>
+
+    <section id="cast"> <!-- using a section id cast for the navigation bar-->
+        <h2>Cast</h2> <!-- using h2 as a header for the list attach below.-->
+        <ul> <!-- using unordered list for the cast.-->
+            <li>Meryl Streep as Miranda Priestly</li>
+            <li>Anne Hathaway as Andy Sachs</li>
+            <li>Emily Blunt as Emily Charlton</li>
+            <li>Stanley Tucci as Nigel</li>
+            <li> Simon Baker as Christian Thompson</li>
+            <li> Adrian Grenier as Nate</li>
+            <li> Tracie Thoms as Lily</li>
+            <li> Rich Sommer as Doug</li>
+        </ul>
+    </section>
+
+    <section id="characters"> <!-- using a section id characters for the navigation bar-->
+        <h2>The Charaters</h2> <!-- using h2 as a header for the list attach below.-->
+        <ul> <!-- using unordered list for the characters.-->
+            <li>Miranda Priestly</li>
+            <li>Andy Sachs</li>
+            <li>Emily Charlton</li>
+            <li>Nigel</li>
+            <li>Christian Thompson</li>
+            <li>Nate</li>
+            <li>Lily</li>
+            <li>Doug</li>
+        </ul>
+    </section>
+
+    <section id="key information"> <!-- using a section id key information for the navigation bar-->
+        <h2>Key Information</h2> <!-- using h2 as a header for the paragraph and list attach below.-->
+        <ul>
+            <li>Director: David Frankel</li>
+            <li>Screenplay: Aline Brosh McKenna</li>
+        </ul>
+            <p>The Devil Wears Prada was based on a novel by Lauren Weisberger that published in 2003, who drew inspiration from her time 
+                as an assistant to Vouge Magazine's editor.</p>
+    </section>
+
+    <section id="reviews"> <!-- using a section id reviews for the navigation bar-->
+        <h2>Reviews</h2> <!-- using h2 as a header for the paragraph and list attach below.-->
+        <h3> Audience Rating Summary --- 4.6</h3>
+        <ul><!-- using unordered list for the reviews of the film.-->
+            <li> CHAN METHA</li>
+            <ul>
+                <li> I should say this movie is a masterpiece. I thought, of course, it's another brilliant movie because 
+                    it has Meryl Streep in it who defines the standards of 'acting'. But i stand corrected. It's not just 
+                    Meryl Streep who invents a new combination of smug and swag as an upper-classed fashionista boss but it's both 
+                    her young PAs. Emily Blunt and Anne Hathaway who have shown a lot of potential in elegantly sticking up to their 
+                    roles and has mimicked the lifestyle of a hard-working underrated desprate personal assistant who awfully ends up to
+                    be a great disappointment to her boss against all her efforts. It's so subtle an acting style. Anne Hathaway on the 
+                    other hand has shown a character arc of transitioning from a regular girl to being a swayed by a swirl of complex
+                    characters and persons that work with her and she has to put up with them in order to stay in the job.
+                    She goes an extra mile always and gets to decide what's best for her life. The other characters in the movie are 
+                    well cast too. But Meryl Streep, Emily Blunt and Anne Hathaway just stand out. If you're a connoisseur of fine arts
+                    and drama, you should definetly watch it for the over the top performances.
+                    <br>
+                    <br>
+                    83 people found this helpful.
+                </li>
+            </ul>
+
+            <br> <!-- using break to make my code and web page neat and clean-->
+
+            <li> ROHIT TIWARI</li>
+            <ul>
+                <li> Woww!! WHat an eye opener movie. I didn't know about harsh-but-true things related to fashion industry. It makes
+                    you think we worry about small and petty things like clothes, fashion sense, shoes, jacket we wear etc. and we try
+                    to emulate the models and celebrities who endorse these brands. But decision depends person-to-person and it's opene ended.
+                    <br>
+                    Now coming to the film, it is about Andy(Hathaway) who is looking for a job of a journalist but ends us as an assistant
+                    to Miranda(Streep) for the time being, how she starts liking and admiring fashion(earlier she didn't), what events lead to
+                    quit her job and finally became journalist in one of the press.<br>
+                    Good story and gives a feel a good message in acting: MERYL STREEP. The name is enough :p
+                    <br>
+                    My favourite Scene:<br>
+                    Last dialouge
+                    Meryl Streep: "Don't be ridiculous, everyone wants to be like me". Then after that Hathaway was speechless and her wits' end
+                    (same as I) and just walked away.It left a hidden message no matter what we end up doing we don't want just to please people and
+                    it is our choice wether we want to do it or not.
+                    <br>
+                    <br>
+                    132 people found this helpful.
+                </li>
+            </ul>
+
+            <br> <!-- using break to make my code and web page neat and clean-->
+
+            <li> MADHAVI KODUGANTI</li>
+            <ul>
+                <li> Every role in this movie is well portrayed and there is so much going on with this movie. Gives you so many perspectives of life,
+                    your fight for your love, career, the opportunity costs, hard and ruthless decisions you need make to climb up and stay there, how this 
+                    mad race can drive you to be the best or can even make you forget your core. And all of this presented in a highly entertaining way. Subtly
+                    presents the idea that life is ultimately the set of choices you make for yourself, where in you get to define the path you take, 
+                    what matters to you and what you value. Watched it multiple times and yet never get bored of watching it for one more time. Meryl Streep, 
+                    Huge respect.. :) Anne, Emily and Stanely <3>
+                    <br>
+                    <br>
+                    102 people found this helpful.
+                </li>
+            </ul>
+        </ul>
+    </section> <!-- closing the section tag.-->
+    <a href="https://www.imdb.com/title/tt0458352/" class="button" target="_blank">Watch Now on IMDb</a> <!-- using an a href that has an existing link for the button-->
+</div>
+</body>
+</html>

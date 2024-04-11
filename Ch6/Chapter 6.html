@@ -1,0 +1,96 @@
+<!-- CHAPTER 6 PETROL CALCULATOR
+Create a simple petrol calculator. Your petrol calculator must include:
+
+A field for the user the enter the cost of petrol per liter. This should have a default value of 1.72
+A field for the user to enter the number of liters purchased. This should have a default value of 0
+A button that when clicked calculates the total cost of the petrol purchased and displays the result to the screen
+A p tag to display the total cost
+Comments throughout every file.
+Buttons should include hover effects, and fields should clearly "focus" when in use.
+Clean and professional creative styling.
+-->
+
+<!DOCTYPE html> <!-- this is for declaring a document type and version of the html being used.-->
+<html lang="en"> <!-- language attribute is set to english.-->
+<head>
+    <meta charset="UTF-8"> <!-- using charset for the special characters to show in web page.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- this tag is used for configuring the settings of mobile device. -->
+    <title>Petrol Calculator</title> <!-- the title for my web page.-->
+
+    <style> /* using css in the style tag */
+        /* for the body of the web page*/
+        body { 
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+        /* for the div class h1*/
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        /* color of the header*/
+        h1 {
+            color: #333;
+        }
+        /*for styling what's inside the label */
+        label {
+            display: block;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+        /* to select a number input fields for styling*/
+        input[type="number"] {
+            padding: 8px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            text-align: center;
+            transition: border-color 0.3s;
+        }
+        /*to select a number input fields for styling*/
+        input[type="number"]:focus {
+            border-color: #333;
+            outline: none;
+        }
+        /* for stlying the button*/
+        button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        /* for styling the hover of the button*/
+        button:hover {
+            background-color: #555;
+        }
+        /* for styling the paragraph result*/
+        #result {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container"> <!-- using a div class to style-->
+        <h1>Petrol Calculator</h1>
+        <label for="cost">Cost of Petrol per liter:</label> <!-- this is for the "cost of petrol per liter" label -->
+        <input type="number" id="cost" value="1.72"> <!-- this one is for the textbox where you input how much does per liter  the petrol-->
+        <label for="liters">Number of Liters Purchased:</label> <!-- this is a label for the "numbers of liters purchased"-->
+        <input type="number" id="liters" value="0"> <!-- this textbox will show you how much does a per liter cost-->
+        <button id="calculateBtn">Calculate Total Cost</button> <!-- a button to show result-->
+        <p id="result"></p> <!-- for the result of your total cost-->
+    </div>
+<script src="/Users/aliyya/Desktop/Chapters 1-6 /Ch6/ch6.js" type="text/javascript"></script> <!-- using a javascript link to attach my js link.-->
+</body>
+</html>

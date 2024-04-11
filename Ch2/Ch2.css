@@ -1,0 +1,50 @@
+body { /*for styling the body of the web page*/
+    font-family: Arial, sans-serif; /*setting the font to ariel and san serif*/
+    margin: 0; /*setting the margin of the web page to 0 pixels*/
+    padding: 0; /*setting the padding of the web page to 0 pixels*/
+    background-color:beige; /* sets the background color of the whole web page to beige*/
+}
+
+.container { /*for styling what is inside the container*/
+    max-width: 800px; /*setting the width by 800 pixels*/
+    margin: 10px auto; /*sets the margin automatically into the center by 10 pixels*/
+    padding: 0 10px; /*this adds 0 height padding in 10 width pixels of padding */
+}
+
+nav ul { /*for styling navigation*/
+    list-style-type: none; /* sets the list style type by removing the bullet points*/
+    margin: 0; /*sets the margin to 0*/
+    padding: 0; /*sets the padding to 0*/
+}
+
+nav ul li { /*for styling the navigation list*/
+    display: inline; /*sets the diplay of the element to inline*/
+    margin-right: 20px; /*sets the margin from the right 20 pixels*/
+}
+
+a { /*to style the default look of the navigation bar*/
+    color:darkred; /*sets the color to dark red*/
+    text-decoration: none; /*this sets the property by removing decoration into the text*/
+    padding: 10px; /*sets the pading to 10 pixels*/
+}
+
+a:hover { /*to style the navigation bar before clicking*/
+    text-decoration: underline; /* this sets the property by underlining the text*/
+    color:burlywood; /*this sets the color when you hover over the text to burlywood*/
+}
+
+.button { /*for styling the button */
+    display: inline-block; /* this displays the property to be inline */
+    padding: 10px 20px; /* adds a padding to the button by 10 pixel height and 20 pixel width*/
+    background-color:darkolivegreen; /*sets the background color of the button to dark olive green*/
+    color:antiquewhite; /*setting the text color to antiquewhite*/
+    border: none; /*this removes the border of the button*/
+    border-radius: 5px; /* adds a border radius of the button to 5 pixels*/
+    cursor: pointer; /*setting the cursor to pointer, indicating that the button is clickable*/
+    text-decoration: none; /*this removes the decoration of the text*/
+}
+
+.button:hover { /* to style the button when hovering it*/
+    background-color:lightblue; /*this sets the background color of the button to lightblue when hover*/
+    color:azure /*sets the text color to azure when you hover the button*/
+}
